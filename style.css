@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +8,218 @@
 
 html {
   font-size: 10px;
+  font-family: "Roboto", sans-serif;
 }
+
+body {
+  background-color: #ffeddd;
+}
+
+.Container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Header Başlangıç */
+.headerWrapper {
+  width: 100%;
+  height: 72px;
+  background-color: #262527;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liveNews {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 6.5rem;
+}
+
+.socialMediaWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loginWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login,
+.signup {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.login:hover,
+.signup:hover {
+  cursor: pointer;
+}
+
+.signup {
+  background-color: #e74c3c;
+  padding: 8px 25px;
+}
+/* Header Son */
+
+/* Navbar Başlangıç */
+.navbarWrapper {
+  width: 100%;
+  background-color: #ffeddd;
+  border-bottom: 1px solid #f2dfce;
+  display: flex;
+}
+
+.navbarInline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  padding: 20px 0 14px 0;
+}
+
+.navbar ul li:first-of-type {
+  font-weight: 700;
+  border-bottom: 2px solid #d24234;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #262527;
+  outline: none;
+  font-style: italic;
+  font-size: 1.2rem;
+  padding: 20px 18px 14px 8px;
+}
+
+.search img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px 0 14px 8px;
+}
+/* Navbar Son */
+
+/* Logo Başlangıç */
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5.4rem 0 3.3rem 0;
+}
+
+.banner {
+  width: 728px;
+  height: 90px;
+  background-color: #262527;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+/* Logo Son */
+
+/* Piyasa Başlangıç */
+.piyasaContainer h3 {
+  color: #262527;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.piyasaContainer p {
+  font-size: 1.2rem;
+  color: #262527;
+  margin-bottom: 21px;
+}
+
+.piyasaBoxWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.piyasaBox {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 11px 15px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.paraKar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paraKar span:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.paraKar span:last-of-type {
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.58;
+}
+
+.paraAnlik {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paraAnlik span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.Zaman span {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.piyasaBox:not(:first-of-type) {
+  background-color: #5a8c5b;
+}
+/* Piyasa Son */
