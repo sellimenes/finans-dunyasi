@@ -175,6 +175,10 @@ body {
   gap: 16px;
 }
 
+.piyasaBoxWrapper:hover{
+  cursor: pointer;
+}
+
 .piyasaBox {
   background-color: #e74c3c;
   color: #fff;
@@ -223,3 +227,47 @@ body {
   background-color: #5a8c5b;
 }
 /* Piyasa Son */
+
+/* Flaş Haberler Başlangıç */
+.flashWrapper{
+  margin-top: 17px;
+}
+
+.flashContainer{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #F0D6BE;
+}
+
+.flashContainer div:first-of-type{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #262527;
+  background-color: #E7CCB5;
+  letter-spacing: 0.89px;
+  height: 100%;
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+.flashContainer div:last-of-type{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 7;
+  background-color: #F0D6BE;
+  padding: 0 1.5rem;
+}
+
+.flashContainer div:last-of-type p:first-of-type{
+  font-size: 1.3rem;
+  color: #262527;
+}
+
+.flashContainer div:last-of-type p:last-of-type{
+  font-size: 1.1rem;
+  color: #262527;
+}
+/* Flaş Haberler Son */
