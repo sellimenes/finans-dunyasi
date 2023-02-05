@@ -175,10 +175,6 @@ body {
   gap: 16px;
 }
 
-.piyasaBoxWrapper:hover{
-  cursor: pointer;
-}
-
 .piyasaBox {
   background-color: #e74c3c;
   color: #fff;
@@ -187,6 +183,10 @@ body {
   flex-direction: column;
   gap: 10px;
   width: 100%;
+}
+
+.piyasaBox:hover{
+  cursor: pointer;
 }
 
 .paraKar {
@@ -271,3 +271,89 @@ body {
   color: #262527;
 }
 /* Flaş Haberler Son */
+
+/* Manşet Başlangıç */
+.mansetWrapper{
+  background-color: #F0D6BE;
+  margin-top: 2.1rem;
+  padding: 3.4rem 0;
+}
+
+.mansetContainer{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.mansetLeft{
+  max-width: 40.5%;
+}
+
+.mansetLeft h5{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #E74C3C;
+  letter-spacing: 1.02px;
+  margin-bottom: 8px;
+}
+
+.mansetLeft h2{
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #262527;
+  line-height: 41px;
+  margin-bottom: 2rem;
+}
+
+.mansetLeft p{
+  font-size: 1.4rem;
+  line-height: 22px;
+  color: #262527;
+  margin-bottom: 2rem;
+}
+
+.mansetLeft button{
+  background-color: #262527;
+  border: none;
+  outline: none;
+  color: #F8F7F2;
+  padding: 1.4rem 4.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.mansetLeft button:hover{
+  cursor: pointer;
+}
+
+.mansetRight{
+  position: relative;
+  height: max-content;
+  margin-top: 9px;
+}
+
+.mansetRight div{
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.49px;
+}
+
+.mansetRight span{
+  width: 2.4rem;
+  height: 3px;
+  background-color: #D2C2B4;
+}
+
+.mansetRight span:first-of-type{
+  background-color: #262527;
+}
+
+.mansetRight span:hover{
+  cursor: pointer;
+}
+/* Manşet Son */
